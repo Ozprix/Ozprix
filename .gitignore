@@ -1,0 +1,10 @@
+# Secrets / local env — never commit
+.env
+.env.*
+!.env.example
+
+# Firecrawl local cache / working dir
+.firecrawl/
+
+# Node
+node_modules/
